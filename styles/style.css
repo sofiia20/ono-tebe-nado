@@ -60,6 +60,7 @@ ol {
 .content__list {
   overflow: auto;
   height: 298px;
+  position: relative;
 }
 
 .result__video {
@@ -79,6 +80,7 @@ ol {
   width: 711px;
   height: 386px;
   margin: 78px 0px 16px;
+  position: relative;
 }
 
 .content__list-item:not(:last-child) {
@@ -105,14 +107,6 @@ ol {
   width: 200px;
 }
 
-.result__video-container {
-  position: relative;
-}
-
-.content__list {
-  position: relative;
-}
-
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
@@ -126,9 +120,9 @@ ol {
   font-size: 75px;
   font-weight: 700;
   line-height: 70.5px;
-  text-align: left;
+  text-align: start;
   font-family: "Oswald", Arial, sans-serif;
-  margin-bottom: 26px;
+  margin-bottom: 24px;
 }
 
 .content__accent {
