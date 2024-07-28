@@ -133,6 +133,7 @@ ol {
   text-decoration: none;
   color: #fff;
   display: block;
+  margin: 2px;
 }
 
 .content__video-card-title {
@@ -273,8 +274,7 @@ input[type="checkbox"]:checked + .search-form__pseudo-checkbox::before {
 }
 
 .content__card-link:active {
-  display: block;
-  margin: 2px;
+  background-color: rgba(84, 80, 80, 1);
 }
 
 .content__card-link:hover {
